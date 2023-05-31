@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&display=swap');
+:root {
+--font-family:'bai jamjuree';
+--font-size: 18px;
+--font-weight-normal :400;
+--font-weight-bold:600;
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%)
+
+}
+body {
+  font-family: var(--font-family);
+  width: 1440px;
+}
+.background {
+  background-repeat: repeat-x;
+}
+.logo {
+  position: relative;
+  bottom: 240px;
+  left: 680px;
+  height: 100px;
+  width: 100px;
+}
+.first1  {
+position: relative;
+bottom: 225px;
+left: 480px;
+}
+  .first1 h1 {
+
+    color: var(--Dark-Grayish-Blue);
+   font-family: var(--font-family);
+   font-weight: 600;
+  }
+  .first1 p {
+    font-size: 18px;
+    color: var(--Grayish-Blue);
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    font-family: var(--font-family);
+  }
+  .apple {
+    position: relative;
+    left: 540px;
+    bottom: 200px;
+  }
+    div input{
+      border-radius: 20px 20px 20px 20px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+     font-weight: 18px;
+     
+    }
+   #Ios {
+    background-color :#26baa4 ;
+    border-color: #26baa4;
+   }
+   #Mac {
+    background-color: var(--Light-Blue);
+    border-color: blue ;
+  
+    color: aliceblue;
+   }
+   .snippets {
+    position: relative;
+    bottom: 150px;
+  left: 560px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: var(--Dark-Grayish-Blue);
+   }
+   .snippets p {
+    font-size: 15px;
+    position: relative;
+    right: 80px;
+    font-family: var(--font-family);
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+   }
+   .imgcomputer img {
+    position: relative;
+    right: 500px;
+   }
+   .second {
+    
+    position: relative;
+    bottom: 375px;
+    left: 580px;
+    font-family: var(--font-family);
+    font-weight: 400;
+   }
+   .second p {
+    position: relative;
+    bottom: 11px;
+    color: var(--Grayish-Blue);
+   }
+   .second h3 {
+    color: var(--Dark-Grayish-Blue);
+   }
+   .third {
+    position: relative;
+    bottom: 375px;
+    left: 580px;
+   
+   }
+   .third p {
+    position: relative;
+    bottom: 11px;
+    color: var(--Grayish-Blue);
+   }
+   .third h3 {
+    color: var(--Dark-Grayish-Blue);
+   }
+   .fourth {
+    position: relative;
+    bottom: 375px;
+    left: 580px;
+   }
+   .fourth p {
+    position: relative;
+    bottom: 11px;
+    color: var(--Grayish-Blue);
+   }
+   .fourth h3 {
+    color: var(--Dark-Grayish-Blue);
+   }
+   .walter {
+    position: relative;
+    left: 450px;
+    bottom: 200px;
+   }
+   .walter p {
+    position: relative;
+    right: 85px;
+    color: var(--Grayish-Blue);
+   }
+   .walter h2 {
+    position: relative;
+    color: var(--Dark-Grayish-Blue);
+    left: 13px;
+   }
+   .imgdevices {
+    position: relative;
+    left: 300px;
+    bottom: 130px;
+   }
+   .jessie {
+    position: relative;
+    left: 400px;
+    bottom: 150px;
+    font-weight: 400;
+   }
+   .jessie h2 {
+    color: var(--Dark-Grayish-Blue);
+   }
+   .jessie p {
+    color: var(--Grayish-Blue);
+   }
+ .blacklist{
+  position: relative;
+  left: 225px;
+ } 
+ .blacklist h3 {
+  color: var(--Dark-Grayish-Blue);
+ }
+ .blacklist img {
+  position: relative;
+   left: 50px;
+   bottom: 10px;
+  
+   
+ }
+ .blacklist p {
+position: relative;
+right: 75px;
+color: var(--Grayish-Blue);
+line-height: 1.8;
+
+ }
+ .icont{
+  position: relative;
+  left: 610px;
+  bottom: 195px;
+ } 
+ .icont h3 {
+  color: var(--Dark-Grayish-Blue);
+ }
+ .icont img {
+  position: relative;
+   left: 50px;
+   bottom: 10px;
+  
+   
+ }
+ .icont p {
+position: relative;
+right: 75px;
+color: var(--Grayish-Blue);
+line-height: 1.8;
+
+ }
+ .iconp{
+  position: relative;
+  left: 1025px;
+  bottom: 365px;
+ } 
+ .iconp h3 {
+  color: var(--Dark-Grayish-Blue);
+ }
+ .iconp img {
+  position: relative;
+   left: 50px;
+   bottom: 10px;
+  
+   
+ }
+ .iconp p {
+position: relative;
+right: 75px;
+color: var(--Grayish-Blue);
+line-height: 1.8;
+
+ } 
+ .one {
+  margin-bottom: 130px;
+  position: relative;
+  bottom: 200px;
+ }
+ .one .three{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 85%;
+  margin: auto;
+ }
+ .one .three img {
+  width: 120px;
+ }
+ .footer {
+  background-color: #F5F6F8;
+}
+.footer-cont {
+  width: 90%;
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.footer img {
+  width: 50px;
+}
+.footer .footer-links {
+  width: 60%;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer .footer-links a {
+  text-decoration: none;
+  color: var(--Dark-Grayish-Blue);
+  /* padding-right: 40px; */
+  padding-bottom: 15px;
+}
+.footer .footer-links a:hover {
+  color: var(--Strong-Cyan);
+}
+.footer .social i {
+  font-size: 25px;    
+  color: var(--Dark-Grayish-Blue);
+}
+.footer .social i:not(:last-child) {
+  margin-right: 25px;
+}
+.footer .social i:hover {
+  cursor: pointer;
+  color: var(--Strong-Cyan);}
+  .btn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    position: relative;
+    bottom: 200px;
+    right: 50px;
+}
+.btn button {
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 15px 30px 10px;
+    transition: 0.5s;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.btn button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.btn .left {
+    margin-right: 15px;
+    background-color: var(--Strong-Cyan);
+    border-bottom: 3px solid hsl(171, 93%, 28%);
+    box-shadow: 0 8px 10px 3px  #07cfb134;
+}
+.btn .right {
+    background-color: var(--Light-Blue);
+    border-bottom: 3px solid hsl(233, 43%, 49%);
+    box-shadow: 0 8px 10px 3px  #6173ff41;
+}
+.title {
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+
+}
+.title h2 {
+  color: var(--Dark-Grayish-Blue);
+  font-weight: 18px;
+}
+.title p {
+  position: relative;
+  right: 107px;
+  color: var(--Grayish-Blue);
+  line-height: 1.8;
+}
+.social {
+  position: relative;
+  right: 50px;
+}
+.social img {
+  width: 20px;
+  justify-content: space-between;
+  margin-right: 10px;
+}
